@@ -1,7 +1,3 @@
-R4  -    
-    - GitHub link - https://github.com/Bradley-ok
-    - Slide deck link - https://youtu.be/dKg4nTSc4Rs
-
 
 R5 - Code style guide is based on PEP8
 
@@ -13,3 +9,4 @@ R6 - Describe and list 3 features of the terminal app
 - After a player has made a turn, the code then checks to see if any winner has been detected when a line has been formed in either a row, column or diagonal, with 3 of the same symbol. The code will return true if no winner has been found, and a false if a winning line has been made, and the winning player will then be displayed in the terminal. I have then included the option to either restart or quit the game, whether the player types "yes" or "no" to continue playing.
 
 - Another feature i have included in the code, as a problem i found when testing the app was that it would give an error if an invalid characted was used, instead of a number between 1-3 for each row and column. The code utilizes the try and except block with a ValueError exception, allowing the player to retake their turn if an invalid character has been used, which creates a much better flow of the game.
+
